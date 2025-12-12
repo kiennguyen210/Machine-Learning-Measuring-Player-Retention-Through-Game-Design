@@ -26,17 +26,23 @@
 ### 1.1. Objective:
 ### 📖 What is this project about? What Business Question will it solve?
 
-🎯 Main Business Question
+#### 🎯 Main Business Question
 
-**Objective:** Does moving the first gate from level 30 to level 40 affect player retention?
+Does moving the first gate from level 30 to level 40 affect player retention?
 
-📘 Project Overview
+#### 📘 Project Overview
 
 The project performs in-depth data analysis (including exploratory analysis, Chi-square statistical testing, Bootstrapped Confidence Intervals, and logistic regression modeling) on the data from an A/B test.
 
-Regarding the A/B Test: It tests the impact of a design change: moving the first progression gate from Level 30 (Group A: gate_30) to Level 40 (Group B: gate_40).Each group contains over 45,000 randomly assigned players.The key metrics analyzed are: Day 1 Retention Rate and Day 7 Retention Rate.
+Regarding the A/B Test: 
 
-💡 Business Questions this project answers
+- It tests the impact of a design change: moving the first progression gate from Level 30 (Group A: gate_30) to Level 40 (Group B: gate_40). 
+
+- Each group contains over 45,000 randomly assigned players. 
+
+- The key metrics analyzed are: Day 1 Retention Rate and Day 7 Retention Rate.
+
+#### 💡 Business Questions this project answers
 
 ✔️ Does moving the first gate from level 30 to level 40 affect player retention (Day 1 and Day 7)?
 
