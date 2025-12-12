@@ -220,13 +220,13 @@ print(" Day 1 Retention:\n", ret_1)
 print("\n Day 7 Retention:\n", ret_7)
 ```
 
-| Day 1 Retention: |          |
-|------------------|----------|
-| gate_30          | 0.448188 |
-| gate_40          | 0.442283 |
-| Day 7 Retention: |          |
-| gate_30          | 0.190201 |
-| gate_40          | 0.182000 |
+| **Day 1 Retention:** |          |
+|----------------------|----------|
+| gate_30              | 0.448188 |
+| gate_40              | 0.442283 |
+| **Day 7 Retention:** |          |
+| gate_30              | 0.190201 |
+| gate_40              | 0.182000 |
 
 **Insights:**
 
@@ -332,9 +332,10 @@ print(f"Day 7 retention: p-value = {p7:.5f}")
 
 Chi-Squared Test Results:
 
-| Day 1 retention | p-value = 0.07550 |
-|-----------------|-------------------|
-| Day 7 retention | p-value = 0.00160 |
+| Day             | p-value |
+|-----------------|---------|
+| Day 1 retention | 0.07550 |
+| Day 7 retention | 0.00160 |
 
 #### 3. Interpretation of Chi-Squared Test Results:
 
@@ -383,8 +384,9 @@ print("Day 7 Retention - gate_30 CI:", boot_30)
 print("Day 7 Retention - gate_40 CI:", boot_40)
 ```
 
-| Day 7 Retention - gate_30 CI | 0.18659899328859061 | 0.19391498881431768 |
+| Gate                         | Lower               | Upper               |
 |------------------------------|---------------------|---------------------|
+| Day 7 Retention - gate_30 CI | 0.18659899328859061 | 0.19391498881431768 |
 | Day 7 Retention - gate_40 CI | 0.178460726769109   | 0.18549539449097585 |
 
 #### 3. Interpretation of Bootstrapping Results
