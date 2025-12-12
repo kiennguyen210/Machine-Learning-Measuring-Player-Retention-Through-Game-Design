@@ -16,8 +16,8 @@
 2. [📂 Dataset Description & Data Structure](#2--dataset-description--data-structure)    
 3. [🔍 Exploratory Data Analysis (EDA)](#3--exploratory-data-analysis-eda)    
 4. [🧑‍💻 Hypothesis Testing](#4-%E2%80%8D-hypothesis-testing)    
-5. [🤖 Predictive Modeling: Logistic Regression](5--predictive-modeling-logistic-regression)    
-6. [💡 Insights & Recommendations](6--insights--recommendations)    
+5. [🤖 Predictive Modeling: Logistic Regression](#5--predictive-modeling-logistic-regression)    
+6. [💡 Insights & Recommendations](#6--insights--recommendations)    
 
 ---
 
