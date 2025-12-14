@@ -504,15 +504,15 @@ The Logistic Regression model was trained to predict the likelihood of a player 
 
 - gamerounds_log (Log-transformed total game rounds played): This feature displays the largest positive coefficient (approx. +1.45). This strong positive value indicates that the volume of gameplay (number of rounds completed) is the most powerful factor increasing the likelihood of a player returning on Day 7.
 
-- retention_1 (Day 1 Retention): This feature has a negligible positive coefficient (approx. +0.05). Returning on Day 1 does positively influence Day 7 retention, but its effect is minimal compared to other factors.
+- retention_1 (Day 1 Retention): This feature has a negligible positive coefficient (~ +0.05). Returning on Day 1 does positively influence Day 7 retention, but its effect is minimal compared to other factors.
 
-- version_bin (Test Group Assignment): This feature shows a small negative coefficient (approx. -0.05). This confirms that the test group associated with this variable (likely the gate_40 group) slightly decreases the retention likelihood compared to the other group, but the impact is minimal.
+- version_bin (Test Group Assignment): This feature shows a small negative coefficient (~ -0.05). This confirms that the test group associated with this variable (likely the gate_40 group) slightly decreases the retention likelihood compared to the other group, but the impact is minimal.
 
 #### 4. Insights and Recommendations
 
 **Insights**
 
-- Engagement Intensity Overcomes Group Assignment: The sheer magnitude of the gamerounds_log coefficient (approx. 1.45) dwarfs the influence of the test group assignment (version_bin, approx. -0.05). This reveals that player behavior and engagement intensity are overwhelmingly more important in predicting Day 7 retention than the specific in-game change being tested (the position of the gate).
+- Engagement Intensity Overcomes Group Assignment: The sheer magnitude of the gamerounds_log coefficient (~ +1.45) dwarfs the influence of the test group assignment (~ -0.05). This reveals that player behavior and engagement intensity are overwhelmingly more important in predicting Day 7 retention than the specific in-game change being tested (the position of the gate).
 
 - Quality of Play Matters More Than Quantity of Visits: The low coefficient for retention_1 suggests that simply opening the app on Day 1 is insufficient. True stickiness is driven by deep engagement, measured by the accumulated volume of gameplay.
 
